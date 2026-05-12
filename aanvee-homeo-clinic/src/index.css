@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-dark bg-white antialiased;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold leading-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+
+  h5 {
+    @apply text-lg md:text-xl;
+  }
+
+  h6 {
+    @apply text-base md:text-lg;
+  }
+
+  p {
+    @apply text-base leading-relaxed;
+  }
+
+  a {
+    @apply transition-colors duration-150;
+  }
+
+  /* Ensure minimum tap target size on mobile */
+  button, a, input, select, textarea {
+    min-height: 44px;
+  }
+
+  @media (min-width: 768px) {
+    button, a, input, select, textarea {
+      min-height: unset;
+    }
+  }
+}
+
+@layer components {
+  /* Glassmorphism card utility */
+  .glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(139, 26, 26, 0.1);
+  }
+
+  /* Glassmorphism with white background variant */
+  .glass-white {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(139, 26, 26, 0.1);
+  }
+
+  /* Glassmorphism with green tint */
+  .glass-green {
+    background: rgba(139, 26, 26, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(139, 26, 26, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(139, 26, 26, 0.08);
+  }
+
+  /* CTA gradient button */
+  .btn-cta {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-semibold text-white transition-all duration-150;
+    background: linear-gradient(135deg, #8B1A1A, #B22222);
+    box-shadow: 0 4px 12px rgba(139, 26, 26, 0.3);
+  }
+
+  .btn-cta:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(139, 26, 26, 0.4);
+  }
+
+  /* Section container */
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+}
+
+@layer utilities {
+  /* Reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
