@@ -26,7 +26,7 @@ describe('TreatmentsPage', () => {
 
   it('renders page description', () => {
     renderTreatmentsPage();
-    expect(screen.getByText(/discover how homeopathy can help/i)).toBeInTheDocument();
+    expect(screen.getByText(/discover how homoeopathy can help/i)).toBeInTheDocument();
   });
 
   it('renders Breadcrumb navigation', () => {
@@ -84,7 +84,7 @@ describe('TreatmentsPage', () => {
     renderTreatmentsPage();
     const metaDesc = document.querySelector('meta[name="description"]');
     expect(metaDesc).not.toBeNull();
-    expect(metaDesc.getAttribute('content')).toContain('homeopathic treatments');
+    expect(metaDesc.getAttribute('content')).toContain('homoeopathic treatments');
   });
 
   it('sets Open Graph title tag', () => {
@@ -98,7 +98,7 @@ describe('TreatmentsPage', () => {
     renderTreatmentsPage();
     const ogDesc = document.querySelector('meta[property="og:description"]');
     expect(ogDesc).not.toBeNull();
-    expect(ogDesc.getAttribute('content')).toContain('homeopathic treatments');
+    expect(ogDesc.getAttribute('content')).toContain('homoeopathic treatments');
   });
 
   it('cleans up meta tags on unmount', () => {

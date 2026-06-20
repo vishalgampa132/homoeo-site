@@ -7,7 +7,7 @@ const onlineBenefits = [
   {
     icon: '🏠',
     title: 'Consult from Home',
-    description: 'Get expert homeopathic consultation from the comfort of your home, anywhere in India.',
+    description: 'Get expert homoeopathic consultation from the comfort of your home, anywhere in India.',
   },
   {
     icon: '⏰',

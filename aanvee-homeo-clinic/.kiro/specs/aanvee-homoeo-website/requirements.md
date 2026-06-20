@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document defines the requirements for "Aanvee Homoeo Stores & Clinic" — a premium, responsive static website for a homeopathy store and clinic. The website aims to establish trust, convey medical expertise, and drive appointment bookings through a calm, elegant, and modern wellness-inspired design. The site uses a basil green color palette with soft cream/white backgrounds, glassmorphism effects, and smooth animations to create a unique premium experience.
+This document defines the requirements for "Aanvee Homoeo Stores & Clinic" — a premium, responsive static website for a homoeopathy store and clinic. The website aims to establish trust, convey medical expertise, and drive appointment bookings through a calm, elegant, and modern wellness-inspired design. The site uses a basil green color palette with soft cream/white backgrounds, glassmorphism effects, and smooth animations to create a unique premium experience.
 
 ## Glossary
 
@@ -10,7 +10,7 @@ This document defines the requirements for "Aanvee Homoeo Stores & Clinic" — a
 - **Visitor**: A person browsing the website on any device (mobile, tablet, or desktop)
 - **Navigation_Bar**: The sticky transparent header component containing logo, menu links, and CTA button
 - **Hero_Section**: The large banner area at the top of the Home page with headline, subheadline, and call-to-action buttons
-- **Treatment_Card**: A UI component displaying disease overview, symptoms, homeopathy benefits, common medicines, and consultation CTA
+- **Treatment_Card**: A UI component displaying disease overview, symptoms, homoeopathy benefits, common medicines, and consultation CTA
 - **Appointment_Form**: The consultation booking form with fields for visitor details and health concerns
 - **CTA_Button**: A call-to-action button styled with gradient effects and hover animations
 - **Glassmorphism_Card**: A UI card component with frosted glass effect, soft shadows, and rounded corners
@@ -20,7 +20,7 @@ This document defines the requirements for "Aanvee Homoeo Stores & Clinic" — a
 - **Breadcrumb**: A navigation aid showing the visitor's current location within the site hierarchy
 - **Section_Reveal**: An animated entrance effect applied to page sections as they scroll into view
 - **Consultation_Process**: A step-by-step timeline component showing the appointment workflow
-- **Product_Carousel**: An animated sliding showcase of homeopathy product categories
+- **Product_Carousel**: An animated sliding showcase of homoeopathy product categories
 
 ## Requirements
 
@@ -53,8 +53,8 @@ This document defines the requirements for "Aanvee Homoeo Stores & Clinic" — a
 
 #### Acceptance Criteria
 
-1. THE Hero_Section SHALL display the headline "Natural Healing for Better Living", a subheadline about trusted homeopathy consultation and medicines, and two CTA_Buttons labeled "Book Appointment" and "Explore Treatments"
-2. THE Hero_Section SHALL include animated floating visual elements (homeopathy pills, herbs, or glass effects) using motion animations
+1. THE Hero_Section SHALL display the headline "Natural Healing for Better Living", a subheadline about trusted homoeopathy consultation and medicines, and two CTA_Buttons labeled "Book Appointment" and "Explore Treatments"
+2. THE Hero_Section SHALL include animated floating visual elements (homoeopathy pills, herbs, or glass effects) using motion animations
 3. WHEN the visitor clicks "Book Appointment", THE Website SHALL navigate to the Consultation page
 4. WHEN the visitor clicks "Explore Treatments", THE Website SHALL navigate to the Treatments page
 
@@ -66,7 +66,7 @@ This document defines the requirements for "Aanvee Homoeo Stores & Clinic" — a
 
 1. THE Website SHALL display an "About Clinic Snapshot" section with a brief introduction, years of experience, and trust indicators
 2. THE Website SHALL display a "Why Choose Us" section with six Glassmorphism_Cards containing icons and descriptions for: Personalized Treatment, Experienced Consultation, Authentic Medicines, Holistic Healing, Family Care, and Affordable Treatment
-3. THE Website SHALL display a "Services" section with six service items: Homeopathy Consultation, Medicine Store, Chronic Disease Care, Skin & Hair Treatment, Child Care, and Lifestyle Disorders
+3. THE Website SHALL display a "Services" section with six service items: homoeopathy Consultation, Medicine Store, Chronic Disease Care, Skin & Hair Treatment, Child Care, and Lifestyle Disorders
 4. THE Website SHALL display a "Featured Treatments" section with animated Treatment_Cards for: Migraine, Thyroid, Diabetes Support, PCOS, Allergies, Arthritis, Gastric Problems, and Stress & Anxiety
 5. THE Website SHALL display a "Products Showcase" section with a Product_Carousel containing categories: Immunity Boosters, Hair Care, Skin Care, Digestive Care, and Wellness Drops
 6. THE Website SHALL display a "Consultation Process" section as a step-by-step timeline with four steps: Appointment Booking, Health Assessment, Personalized Medicine, and Follow-up Care
@@ -85,12 +85,12 @@ This document defines the requirements for "Aanvee Homoeo Stores & Clinic" — a
 
 ### Requirement 6: Treatments Page
 
-**User Story:** As a visitor, I want detailed information about available treatments, so that I can understand how homeopathy addresses my specific health concern.
+**User Story:** As a visitor, I want detailed information about available treatments, so that I can understand how homoeopathy addresses my specific health concern.
 
 #### Acceptance Criteria
 
 1. THE Website SHALL display Treatment_Cards for each of the following conditions: Migraine, Thyroid Disorders, Diabetes Support, PCOS, Skin Allergies, Hair Fall, Arthritis, Gastric Issues, Respiratory Problems, Stress & Anxiety, Child Immunity, and Lifestyle Disorders
-2. WHEN a Treatment_Card is expanded or selected, THE Website SHALL display: disease overview, symptoms list, benefits of homeopathy for that condition, common medicines used, and a "Book Consultation" CTA_Button
+2. WHEN a Treatment_Card is expanded or selected, THE Website SHALL display: disease overview, symptoms list, benefits of homoeopathy for that condition, common medicines used, and a "Book Consultation" CTA_Button
 3. THE Website SHALL organize Treatment_Cards using accordions, tabs, or expandable card layouts for clear information hierarchy
 4. THE Website SHALL display Breadcrumb navigation showing "Home > Treatments"
 

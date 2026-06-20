@@ -65,7 +65,7 @@ export default function Testimonials() {
               What Our Patients Say
             </h2>
             <p className="text-lg md:text-xl text-dark/70 leading-relaxed">
-              Real stories from patients who found lasting relief through homeopathy at Aanvee Homoeo.
+              Real stories from patients who found lasting relief through homoeopathy at Aanvee Homoeo.
             </p>
           </div>
         </SectionReveal>

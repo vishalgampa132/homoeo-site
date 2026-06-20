@@ -26,7 +26,7 @@ describe('DoctorProfiles', () => {
 
   it('renders doctor qualifications', () => {
     render(<DoctorProfiles />);
-    expect(screen.getByText('BHMS, MD (Homeopathy)')).toBeInTheDocument();
+    expect(screen.getByText('BHMS, MD (homoeopathy)')).toBeInTheDocument();
     expect(screen.getByText('BHMS, PGDPC')).toBeInTheDocument();
     expect(screen.getByText('BHMS, CCH')).toBeInTheDocument();
   });

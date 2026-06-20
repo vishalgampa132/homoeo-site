@@ -2,7 +2,7 @@
 
 ## Overview
 
-This design describes a premium, responsive static website for "Aanvee Homoeo Stores & Clinic" — a homeopathy store and clinic. The website is built as a single-page application (SPA) using React with client-side routing, styled with Tailwind CSS, and enhanced with Framer Motion animations and a glassmorphism design system.
+This design describes a premium, responsive static website for "Aanvee Homoeo Stores & Clinic" — a homoeopathy store and clinic. The website is built as a single-page application (SPA) using React with client-side routing, styled with Tailwind CSS, and enhanced with Framer Motion animations and a glassmorphism design system.
 
 The site consists of 5 pages (Home, About Us, Treatments, Consultation, Contact Us) connected via React Router. It uses a basil green color palette with cream/white backgrounds, frosted glass card effects, and smooth scroll-triggered animations to create a premium wellness brand experience.
 
@@ -315,7 +315,7 @@ const designTokens = {
 
 ### Property 2: Expanded treatment cards display all required information
 
-*For any* valid treatment data object, when rendered in the expanded state, the component output should contain the disease overview, symptoms list, benefits of homeopathy, common medicines, and a "Book Consultation" call-to-action.
+*For any* valid treatment data object, when rendered in the expanded state, the component output should contain the disease overview, symptoms list, benefits of homoeopathy, common medicines, and a "Book Consultation" call-to-action.
 
 **Validates: Requirements 6.2**
 

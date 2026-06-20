@@ -55,7 +55,7 @@ describe('WhyChooseUs', () => {
     render(<WhyChooseUs />);
     expect(screen.getByText('Experienced Consultation')).toBeInTheDocument();
     expect(
-      screen.getByText(/seasoned homeopathic consultants/i)
+      screen.getByText(/seasoned homoeopathic consultants/i)
     ).toBeInTheDocument();
   });
 
@@ -63,7 +63,7 @@ describe('WhyChooseUs', () => {
     render(<WhyChooseUs />);
     expect(screen.getByText('Authentic Medicines')).toBeInTheDocument();
     expect(
-      screen.getByText(/genuine, high-quality homeopathic medicines/i)
+      screen.getByText(/genuine, high-quality homoeopathic medicines/i)
     ).toBeInTheDocument();
   });
 

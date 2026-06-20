@@ -29,14 +29,14 @@ const Testimonials = lazy(() => import('../components/sections/home/Testimonials
  */
 export default function HomePage() {
   useEffect(() => {
-    document.title = 'Aanvee Homoeo Store | Dilutions, Mother Tinctures & Homeopathy Medicines';
+    document.title = 'Aanvee Homoeo Store | Dilutions, Mother Tinctures & homoeopathy Medicines';
 
     const metaTags = {
       description:
-        'Your complete homeopathy store — dilutions, mother tinctures, biochemic medicines & more. Consultation available with Dr. Gande Manasa (B.H.M.S).',
-      'og:title': 'Aanvee Homoeo Store | Dilutions, Mother Tinctures & Homeopathy Medicines',
+        'Your complete homoeopathy store — dilutions, mother tinctures, biochemic medicines & more. Consultation available with Dr. G Manasa B.H.M.S (JIMS).',
+      'og:title': 'Aanvee Homoeo Store | Dilutions, Mother Tinctures & homoeopathy Medicines',
       'og:description':
-        'Your complete homeopathy store — dilutions, mother tinctures, biochemic medicines & more. Consultation available with Dr. Gande Manasa (B.H.M.S).',
+        'Your complete homoeopathy store — dilutions, mother tinctures, biochemic medicines & more. Consultation available with Dr. G Manasa B.H.M.S (JIMS).',
       'og:type': 'website',
     };
 

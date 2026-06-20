@@ -17,7 +17,7 @@ export default function DoctorProfiles() {
             Our Consultant
           </h2>
           <p className="text-center text-dark/70 max-w-2xl mx-auto mb-12">
-            Get personalized homeopathic consultation from our qualified practitioner.
+            Get personalized homoeopathic consultation from our qualified practitioner.
           </p>
         </SectionReveal>
 
@@ -33,13 +33,13 @@ export default function DoctorProfiles() {
               </div>
 
               <h3 className="text-xl md:text-2xl font-heading font-semibold text-dark">
-                Dr. Gande Manasa
+                Dr. G Manasa
               </h3>
               <p className="text-base text-primary font-medium mt-2">
-                B.H.M.S
+                B.H.M.S (JIMS)
               </p>
               <p className="mt-4 text-dark/70 leading-relaxed">
-                Providing personalized homeopathic consultation and treatment for a wide range of acute and chronic conditions.
+                Providing personalized homoeopathic consultation and treatment for a wide range of acute and chronic conditions.
               </p>
             </GlassCard>
           </div>

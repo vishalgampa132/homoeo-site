@@ -12,7 +12,7 @@ export const testimonials = [
     name: "Rajesh Patel",
     condition: "Thyroid Disorder",
     review:
-      "My thyroid levels have stabilized remarkably since starting homeopathic treatment here. The personalized approach and regular follow-ups made all the difference. Highly recommended!",
+      "My thyroid levels have stabilized remarkably since starting homoeopathic treatment here. The personalized approach and regular follow-ups made all the difference. Highly recommended!",
     rating: 5
   },
   {
@@ -36,7 +36,7 @@ export const testimonials = [
     name: "Meera Krishnan",
     condition: "PCOS",
     review:
-      "After struggling with irregular periods and hormonal issues, I found real relief through homeopathy. My cycles are regular now and I feel so much healthier overall.",
+      "After struggling with irregular periods and hormonal issues, I found real relief through homoeopathy. My cycles are regular now and I feel so much healthier overall.",
     rating: 5
   },
   {

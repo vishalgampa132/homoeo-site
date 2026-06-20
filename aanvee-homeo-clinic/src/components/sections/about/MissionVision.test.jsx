@@ -34,14 +34,14 @@ describe('MissionVision', () => {
   it('renders mission statement content', () => {
     render(<MissionVision />);
     expect(
-      screen.getByText(/accessible, personalized, and effective homeopathic healthcare/i)
+      screen.getByText(/accessible, personalized, and effective homoeopathic healthcare/i)
     ).toBeInTheDocument();
   });
 
   it('renders vision statement content', () => {
     render(<MissionVision />);
     expect(
-      screen.getByText(/most trusted homeopathy wellness center/i)
+      screen.getByText(/most trusted homoeopathy wellness center/i)
     ).toBeInTheDocument();
   });
 

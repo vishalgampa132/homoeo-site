@@ -23,8 +23,8 @@ vi.mock('framer-motion', () => ({
 
 const mockItems = [
   {
-    question: 'What is homeopathy?',
-    answer: 'Homeopathy is a natural system of medicine that uses highly diluted substances to stimulate the body\'s own healing mechanisms.',
+    question: 'What is homoeopathy?',
+    answer: 'homoeopathy is a natural system of medicine that uses highly diluted substances to stimulate the body\'s own healing mechanisms.',
   },
   {
     question: 'How long does treatment take?',
@@ -32,7 +32,7 @@ const mockItems = [
   },
   {
     question: 'Are there any side effects?',
-    answer: 'Homeopathic medicines are generally safe with no known side effects when prescribed by a qualified practitioner.',
+    answer: 'homoeopathic medicines are generally safe with no known side effects when prescribed by a qualified practitioner.',
   },
 ];
 

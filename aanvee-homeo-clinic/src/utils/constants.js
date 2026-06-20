@@ -26,7 +26,7 @@ export const designTokens = {
 
 export const clinicInfo = {
   name: "Aanvee Homoeo Store",
-  tagline: "Your Complete Homeopathy Store – Dilutions, Mother Tinctures & More",
+  tagline: "Your Complete homoeopathy Store – Dilutions, Mother Tinctures & More",
   phone: "+91 98499 41115",
   whatsapp: "+919849941115",
   email: "contact@aanveehomoeo.com",
@@ -50,7 +50,7 @@ export const clinicInfo = {
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2!2d73.85!3d18.52!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1",
   doctor: {
-    name: "Dr. Gande Manasa",
+    name: "Dr. G Manasa",
     qualification: "B.H.M.S",
   }
 };

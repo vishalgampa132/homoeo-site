@@ -9,7 +9,7 @@ const kits = [
     title: 'Travel Kit',
     icon: '✈️',
     description:
-      'Essential homeopathic remedies for common travel ailments — motion sickness, jet lag, digestive upsets, fever, and injuries on the go.',
+      'Essential homoeopathic remedies for common travel ailments — motion sickness, jet lag, digestive upsets, fever, and injuries on the go.',
     includes: ['Arnica', 'Nux Vomica', 'Arsenicum Album', 'Cocculus', 'Belladonna'],
   },
   {
@@ -71,7 +71,7 @@ const kits = [
 ];
 
 /**
- * MedicinalKits - Displays available homeopathic medicinal kits.
+ * MedicinalKits - Displays available homoeopathic medicinal kits.
  */
 export default function MedicinalKits() {
   return (
@@ -85,7 +85,7 @@ export default function MedicinalKits() {
             id="medicinal-kits-heading"
             className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-dark text-center mb-4"
           >
-            Homeopathic Medicinal Kits
+            homoeopathic Medicinal Kits
           </h2>
           <p className="text-dark/70 text-center max-w-2xl mx-auto mb-12">
             Ready-to-use kits with carefully selected remedies for specific needs. Perfect for families, travelers, and everyday wellness.

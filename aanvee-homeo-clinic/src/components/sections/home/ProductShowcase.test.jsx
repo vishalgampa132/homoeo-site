@@ -61,7 +61,7 @@ describe('ProductShowcase', () => {
   it('renders a subtitle paragraph', () => {
     render(<ProductShowcase />);
     expect(
-      screen.getByText(/explore our range of authentic homeopathic products/i)
+      screen.getByText(/explore our range of authentic homoeopathic products/i)
     ).toBeInTheDocument();
   });
 

@@ -10,7 +10,7 @@ import TreatmentCard from './TreatmentCard';
  *
  * For any valid treatment data object, when rendered in the expanded state,
  * the component output should contain the disease overview, symptoms list,
- * benefits of homeopathy, common medicines, and a "Book Consultation" call-to-action.
+ * benefits of homoeopathy, common medicines, and a "Book Consultation" call-to-action.
  *
  * **Validates: Requirements 6.2**
  */
@@ -77,7 +77,7 @@ describe('Feature: aanvee-homoeo-website, Property 2: Expanded treatment cards d
         }
 
         // Benefits heading should be present
-        expect(view.getByText('Benefits of Homeopathy')).toBeInTheDocument();
+        expect(view.getByText('Benefits of homoeopathy')).toBeInTheDocument();
 
         // Each benefit should be rendered
         for (const benefit of treatment.benefits) {

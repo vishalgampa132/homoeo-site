@@ -12,13 +12,13 @@ const consultationSteps = [
   {
     title: 'Health Assessment',
     description:
-      'Our homeopath conducts a thorough evaluation of your symptoms, medical history, and lifestyle to understand your unique health profile.',
+      'Our homoeopath conducts a thorough evaluation of your symptoms, medical history, and lifestyle to understand your unique health profile.',
     icon: '🩺',
   },
   {
     title: 'Personalized Medicine',
     description:
-      'Based on your assessment, we prescribe individualized homeopathic remedies sourced from trusted manufacturers for safe and effective healing.',
+      'Based on your assessment, we prescribe individualized homoeopathic remedies sourced from trusted manufacturers for safe and effective healing.',
     icon: '💊',
   },
   {

@@ -26,7 +26,7 @@ export default function CTABanner() {
             Ready to Start Your Healing Journey?
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Book a personalized consultation with Dr. Gande Manasa (B.H.M.S).
+            Book a personalized consultation with Dr. G Manasa B.H.M.S (JIMS).
             Natural, safe, and effective treatment tailored just
             for you.
           </p>

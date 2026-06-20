@@ -44,7 +44,7 @@ export default function Services() {
               Our Services
             </h2>
             <p className="text-lg md:text-xl text-dark/70 leading-relaxed">
-              Comprehensive homeopathic care tailored to your health needs,
+              Comprehensive homoeopathic care tailored to your health needs,
               from consultation to complete wellness solutions.
             </p>
           </div>

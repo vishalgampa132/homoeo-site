@@ -23,10 +23,10 @@ export default function TreatmentsPage() {
 
     const metaTags = {
       description:
-        'Explore our homeopathic treatments for migraine, thyroid, PCOS, skin allergies, arthritis, and more. Natural healing with no side effects.',
+        'Explore our homoeopathic treatments for migraine, thyroid, PCOS, skin allergies, arthritis, and more. Natural healing with no side effects.',
       'og:title': 'Treatments | Aanvee Homoeo Store',
       'og:description':
-        'Explore our homeopathic treatments for migraine, thyroid, PCOS, skin allergies, arthritis, and more. Natural healing with no side effects.',
+        'Explore our homoeopathic treatments for migraine, thyroid, PCOS, skin allergies, arthritis, and more. Natural healing with no side effects.',
       'og:type': 'website',
     };
 

@@ -77,7 +77,7 @@ describe('ConsultationProcess', () => {
     renderConsultationProcess();
     expect(screen.getByText('Personalized Medicine')).toBeInTheDocument();
     expect(
-      screen.getByText(/individualized homeopathic remedies/i)
+      screen.getByText(/individualized homoeopathic remedies/i)
     ).toBeInTheDocument();
   });
 

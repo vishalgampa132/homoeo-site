@@ -23,10 +23,10 @@ export default function ConsultationPage() {
 
     const metaTags = {
       description:
-        'Book your homeopathic consultation with Dr. Gande Manasa (B.H.M.S) at Aanvee Homoeo Store. Flexible scheduling and personalized treatment plans.',
+        'Book your homoeopathic consultation with Dr. G Manasa B.H.M.S (JIMS) at Aanvee Homoeo Store. Flexible scheduling and personalized treatment plans.',
       'og:title': 'Book Consultation | Aanvee Homoeo Store',
       'og:description':
-        'Book your homeopathic consultation with Dr. Gande Manasa (B.H.M.S) at Aanvee Homoeo Store. Flexible scheduling and personalized treatment plans.',
+        'Book your homoeopathic consultation with Dr. G Manasa B.H.M.S (JIMS) at Aanvee Homoeo Store. Flexible scheduling and personalized treatment plans.',
       'og:type': 'website',
     };
 

@@ -22,23 +22,23 @@ export default function ClinicStory() {
           <div className="prose prose-lg max-w-none text-dark/80 leading-relaxed space-y-6">
             <p>
               Aanvee Homoeo Store was founded with a simple yet powerful vision — to make
-              authentic homeopathic medicines accessible to every family. We are your complete
-              homeopathy destination, stocking a wide range of dilutions, mother tinctures,
+              authentic homoeopathic medicines accessible to every family. We are your complete
+              homoeopathy destination, stocking a wide range of dilutions, mother tinctures,
               biochemic medicines, patent products, and wellness supplements.
             </p>
             <p>
               We recognized the need for a reliable store where patients and practitioners alike
-              could find genuine, high-quality homeopathic products from trusted manufacturers.
+              could find genuine, high-quality homoeopathic products from trusted manufacturers.
               Whether you need a specific potency dilution, a rare mother tincture, or everyday
               biochemic salts — we have it all under one roof.
             </p>
             <p>
-              Beyond being a store, we also offer personalized homeopathic consultation with our
-              qualified doctor, Dr. Gande Manasa (B.H.M.S), who provides holistic treatment plans
+              Beyond being a store, we also offer personalized homoeopathic consultation with our
+              qualified doctor, Dr. G Manasa B.H.M.S (JIMS), who provides holistic treatment plans
               addressing the root cause of ailments.
             </p>
             <p>
-              At Aanvee Homoeo Store, we believe in the gentle power of homeopathy and are
+              At Aanvee Homoeo Store, we believe in the gentle power of homoeopathy and are
               committed to helping our community achieve natural wellness through authentic
               medicines and compassionate care.
             </p>

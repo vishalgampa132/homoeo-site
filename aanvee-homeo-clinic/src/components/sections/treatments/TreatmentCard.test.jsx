@@ -53,7 +53,7 @@ describe('TreatmentCard', () => {
 
     it('does not render benefits list when collapsed', () => {
       renderCard();
-      expect(screen.queryByText('Benefits of Homeopathy')).not.toBeInTheDocument();
+      expect(screen.queryByText('Benefits of homoeopathy')).not.toBeInTheDocument();
     });
 
     it('does not render medicines when collapsed', () => {
@@ -83,7 +83,7 @@ describe('TreatmentCard', () => {
 
     it('renders the benefits list', () => {
       renderCard({ isExpanded: true });
-      expect(screen.getByText('Benefits of Homeopathy')).toBeInTheDocument();
+      expect(screen.getByText('Benefits of homoeopathy')).toBeInTheDocument();
       mockTreatment.benefits.forEach((benefit) => {
         expect(screen.getByText(benefit)).toBeInTheDocument();
       });
@@ -159,7 +159,7 @@ describe('TreatmentCard', () => {
         isExpanded: true,
         treatment: { ...mockTreatment, benefits: [] },
       });
-      expect(screen.queryByText('Benefits of Homeopathy')).not.toBeInTheDocument();
+      expect(screen.queryByText('Benefits of homoeopathy')).not.toBeInTheDocument();
     });
 
     it('renders without medicines when array is empty', () => {

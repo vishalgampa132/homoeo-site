@@ -6,7 +6,7 @@ const productCategories = [
   {
     id: 'immunity-boosters',
     title: 'Immunity Boosters',
-    description: 'Strengthen your natural defenses with potent homeopathic formulations for enhanced immunity.',
+    description: 'Strengthen your natural defenses with potent homoeopathic formulations for enhanced immunity.',
     icon: '🛡️',
   },
   {
@@ -38,7 +38,7 @@ const productCategories = [
 /**
  * ProductShowcase - Displays product categories in an auto-playing carousel.
  *
- * Uses the Carousel component to showcase 5 homeopathy product categories
+ * Uses the Carousel component to showcase 5 homoeopathy product categories
  * with icons, titles, and descriptions. Wrapped in SectionReveal for
  * scroll-triggered animation.
  */
@@ -57,7 +57,7 @@ export default function ProductShowcase() {
             Our Products
           </h2>
           <p className="text-dark/70 text-center max-w-2xl mx-auto mb-10">
-            Explore our range of authentic homeopathic products crafted for holistic wellness.
+            Explore our range of authentic homoeopathic products crafted for holistic wellness.
           </p>
         </SectionReveal>
 

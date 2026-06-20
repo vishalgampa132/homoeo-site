@@ -52,9 +52,9 @@ describe('Services', () => {
     expect(list).toBeInTheDocument();
   });
 
-  it('renders "Homeopathy Consultation" service with description', () => {
+  it('renders "homoeopathy Consultation" service with description', () => {
     renderServices();
-    expect(screen.getByText('Homeopathy Consultation')).toBeInTheDocument();
+    expect(screen.getByText('homoeopathy Consultation')).toBeInTheDocument();
     expect(
       screen.getByText(/personalized consultations with experienced/i)
     ).toBeInTheDocument();
@@ -64,7 +64,7 @@ describe('Services', () => {
     renderServices();
     expect(screen.getByText('Medicine Store')).toBeInTheDocument();
     expect(
-      screen.getByText(/authentic homeopathic medicines sourced/i)
+      screen.getByText(/authentic homoeopathic medicines sourced/i)
     ).toBeInTheDocument();
   });
 
@@ -88,7 +88,7 @@ describe('Services', () => {
     renderServices();
     expect(screen.getByText('Child Care')).toBeInTheDocument();
     expect(
-      screen.getByText(/gentle and safe homeopathic care for children/i)
+      screen.getByText(/gentle and safe homoeopathic care for children/i)
     ).toBeInTheDocument();
   });
 
@@ -108,7 +108,7 @@ describe('Services', () => {
 
   it('renders links for services that have a link property', () => {
     renderServices();
-    // Services with links: Homeopathy Consultation, Chronic Disease Care, Skin & Hair, Child Care, Lifestyle Disorders
+    // Services with links: homoeopathy Consultation, Chronic Disease Care, Skin & Hair, Child Care, Lifestyle Disorders
     const links = screen.getAllByRole('link');
     expect(links.length).toBe(5);
   });
@@ -130,7 +130,7 @@ describe('Services', () => {
   it('renders a subtitle paragraph', () => {
     renderServices();
     expect(
-      screen.getByText(/comprehensive homeopathic care/i)
+      screen.getByText(/comprehensive homoeopathic care/i)
     ).toBeInTheDocument();
   });
 

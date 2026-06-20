@@ -6,25 +6,25 @@ const milestones = [
   {
     title: 'Store Established',
     description:
-      'Aanvee Homoeo Store was established with a vision to provide authentic homeopathic medicines and consultation to the community.',
+      'Aanvee Homoeo Store was established with a vision to provide authentic homoeopathic medicines and consultation to the community.',
     icon: '🌱',
   },
   {
     title: 'Wide Range of Medicines',
     description:
-      'Built a comprehensive inventory of 1000+ homeopathic medicines including dilutions, mother tinctures, biochemic salts, and patent products.',
+      'Built a comprehensive inventory of 1000+ homoeopathic medicines including dilutions, mother tinctures, biochemic salts, and patent products.',
     icon: '🏪',
   },
   {
     title: 'Consultation Services',
     description:
-      'Introduced personalized homeopathic consultation with Dr. Gande Manasa (B.H.M.S) for holistic treatment of acute and chronic conditions.',
+      'Introduced personalized homoeopathic consultation with Dr. G Manasa B.H.M.S (JIMS) for holistic treatment of acute and chronic conditions.',
     icon: '👩‍⚕️',
   },
   {
     title: 'Trusted by Families',
     description:
-      'Became a trusted destination for families seeking natural healing through authentic homeopathic medicines and expert guidance.',
+      'Became a trusted destination for families seeking natural healing through authentic homoeopathic medicines and expert guidance.',
     icon: '🏆',
   },
 ];
@@ -47,7 +47,7 @@ export default function ClinicTimeline() {
             Our Journey
           </h2>
           <p className="text-center text-dark/70 max-w-2xl mx-auto mb-12">
-            Key milestones in our mission to bring authentic homeopathy to every family.
+            Key milestones in our mission to bring authentic homoeopathy to every family.
           </p>
         </SectionReveal>
 

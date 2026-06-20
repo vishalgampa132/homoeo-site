@@ -28,7 +28,7 @@ describe('ConsultationPage', () => {
   it('renders the page description', () => {
     renderPage();
     expect(
-      screen.getByText(/book your personalized homeopathic consultation/i)
+      screen.getByText(/book your personalized homoeopathic consultation/i)
     ).toBeInTheDocument();
   });
 
@@ -78,7 +78,7 @@ describe('ConsultationPage', () => {
     renderPage();
     const metaDesc = document.querySelector('meta[name="description"]');
     expect(metaDesc).not.toBeNull();
-    expect(metaDesc.getAttribute('content')).toContain('Book your homeopathic consultation');
+    expect(metaDesc.getAttribute('content')).toContain('Book your homoeopathic consultation');
   });
 
   it('sets Open Graph meta tags', () => {
@@ -88,6 +88,6 @@ describe('ConsultationPage', () => {
     expect(ogTitle).not.toBeNull();
     expect(ogTitle.getAttribute('content')).toBe('Book Consultation | Aanvee Homoeo Store');
     expect(ogDesc).not.toBeNull();
-    expect(ogDesc.getAttribute('content')).toContain('Book your homeopathic consultation');
+    expect(ogDesc.getAttribute('content')).toContain('Book your homoeopathic consultation');
   });
 });

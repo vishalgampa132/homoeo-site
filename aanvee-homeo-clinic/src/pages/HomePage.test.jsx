@@ -72,7 +72,7 @@ describe('HomePage', () => {
     renderHomePage();
     const metaDesc = document.querySelector('meta[name="description"]');
     expect(metaDesc).not.toBeNull();
-    expect(metaDesc.getAttribute('content')).toContain('homeopathy consultation');
+    expect(metaDesc.getAttribute('content')).toContain('homoeopathy consultation');
   });
 
   it('sets Open Graph title tag', () => {
@@ -86,7 +86,7 @@ describe('HomePage', () => {
     renderHomePage();
     const ogDesc = document.querySelector('meta[property="og:description"]');
     expect(ogDesc).not.toBeNull();
-    expect(ogDesc.getAttribute('content')).toContain('homeopathy consultation');
+    expect(ogDesc.getAttribute('content')).toContain('homoeopathy consultation');
   });
 
   it('renders all sections in correct order', async () => {

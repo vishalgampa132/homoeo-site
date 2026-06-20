@@ -107,7 +107,7 @@ describe('FeaturedTreatments', () => {
   it('renders a subtitle paragraph', () => {
     renderFeaturedTreatments();
     expect(
-      screen.getByText(/explore our specialized homeopathic treatments/i)
+      screen.getByText(/explore our specialized homoeopathic treatments/i)
     ).toBeInTheDocument();
   });
 

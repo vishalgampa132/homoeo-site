@@ -25,10 +25,10 @@ export default function AboutPage() {
 
     const metaTags = {
       description:
-        'Learn about Aanvee Homoeo Store — your complete homeopathy destination for dilutions, mother tinctures, and authentic medicines with consultation by Dr. Gande Manasa (B.H.M.S).',
+        'Learn about Aanvee Homoeo Store — your complete homoeopathy destination for dilutions, mother tinctures, and authentic medicines with consultation by Dr. G Manasa B.H.M.S (JIMS).',
       'og:title': 'About Us | Aanvee Homoeo Store',
       'og:description':
-        'Learn about Aanvee Homoeo Store — your complete homeopathy destination for dilutions, mother tinctures, and authentic medicines with consultation by Dr. Gande Manasa (B.H.M.S).',
+        'Learn about Aanvee Homoeo Store — your complete homoeopathy destination for dilutions, mother tinctures, and authentic medicines with consultation by Dr. G Manasa B.H.M.S (JIMS).',
       'og:type': 'website',
     };
 

@@ -1,7 +1,7 @@
 export const services = [
   {
-    id: "homeopathic-medicines",
-    name: "Homeopathic Medicines",
+    id: "homoeopathic-medicines",
+    name: "homoeopathic Medicines",
     icon: "💊",
     description:
       "Dilutions, mother tinctures, biochemic salts & patent products from trusted brands.",
@@ -12,7 +12,7 @@ export const services = [
     name: "Doctor Consultation",
     icon: "🩺",
     description:
-      "Personalized treatment by Dr. Gande Manasa (B.H.M.S) for acute & chronic conditions.",
+      "Personalized treatment by Dr. G Manasa B.H.M.S (JIMS) for acute & chronic conditions.",
     link: "/consultation"
   },
   {

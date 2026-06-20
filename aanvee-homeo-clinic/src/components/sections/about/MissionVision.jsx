@@ -33,9 +33,9 @@ export default function MissionVision() {
                 </h3>
               </div>
               <p className="text-dark/75 leading-relaxed">
-                To be your trusted one-stop destination for authentic homeopathic medicines —
+                To be your trusted one-stop destination for authentic homoeopathic medicines —
                 offering a wide range of dilutions, mother tinctures, biochemic medicines, and
-                patent products along with personalized consultation. We make quality homeopathy
+                patent products along with personalized consultation. We make quality homoeopathy
                 accessible to every family in our community.
               </p>
             </GlassCard>
@@ -50,9 +50,9 @@ export default function MissionVision() {
                 </h3>
               </div>
               <p className="text-dark/75 leading-relaxed">
-                To become the most trusted homeopathy store, recognized for authentic products,
+                To become the most trusted homoeopathy store, recognized for authentic products,
                 comprehensive inventory, and expert guidance. We envision a future where every
-                family has easy access to genuine homeopathic medicines for safe, sustainable,
+                family has easy access to genuine homoeopathic medicines for safe, sustainable,
                 and side-effect-free healthcare.
               </p>
             </GlassCard>

@@ -29,7 +29,7 @@ const mockSteps = [
   },
   {
     title: 'Personalized Medicine',
-    description: 'Custom homeopathic treatment plan tailored to you.',
+    description: 'Custom homoeopathic treatment plan tailored to you.',
     icon: '💊',
   },
   {

@@ -4,7 +4,7 @@ export const treatments = [
     name: "Migraine",
     icon: "🧠",
     overview:
-      "Migraine is a neurological condition causing intense, throbbing headaches often accompanied by nausea and sensitivity to light. Homeopathy addresses the root cause by considering individual triggers and constitution.",
+      "Migraine is a neurological condition causing intense, throbbing headaches often accompanied by nausea and sensitivity to light. homoeopathy addresses the root cause by considering individual triggers and constitution.",
     symptoms: [
       "Throbbing headache",
       "Nausea and vomiting",
@@ -27,7 +27,7 @@ export const treatments = [
     name: "Thyroid Disorders",
     icon: "🦋",
     overview:
-      "Thyroid disorders include hypothyroidism and hyperthyroidism, affecting metabolism, energy levels, and overall well-being. Homeopathy helps regulate thyroid function naturally without dependency on synthetic hormones.",
+      "Thyroid disorders include hypothyroidism and hyperthyroidism, affecting metabolism, energy levels, and overall well-being. homoeopathy helps regulate thyroid function naturally without dependency on synthetic hormones.",
     symptoms: [
       "Unexplained weight changes",
       "Fatigue and lethargy",
@@ -50,7 +50,7 @@ export const treatments = [
     name: "Diabetes Support",
     icon: "🩸",
     overview:
-      "Homeopathy offers supportive care for diabetes by helping manage blood sugar levels, reducing complications, and improving overall vitality alongside conventional treatment.",
+      "homoeopathy offers supportive care for diabetes by helping manage blood sugar levels, reducing complications, and improving overall vitality alongside conventional treatment.",
     symptoms: [
       "Frequent urination",
       "Excessive thirst",
@@ -73,7 +73,7 @@ export const treatments = [
     name: "PCOS",
     icon: "🌸",
     overview:
-      "Polycystic Ovary Syndrome (PCOS) is a hormonal disorder causing irregular periods, weight gain, and fertility issues. Homeopathy treats PCOS by balancing hormones and addressing individual symptoms.",
+      "Polycystic Ovary Syndrome (PCOS) is a hormonal disorder causing irregular periods, weight gain, and fertility issues. homoeopathy treats PCOS by balancing hormones and addressing individual symptoms.",
     symptoms: [
       "Irregular or missed periods",
       "Excessive hair growth",
@@ -96,7 +96,7 @@ export const treatments = [
     name: "Skin Allergies",
     icon: "🌿",
     overview:
-      "Skin allergies including eczema, urticaria, and dermatitis cause itching, redness, and discomfort. Homeopathy treats the underlying immune response to provide lasting relief without steroid dependency.",
+      "Skin allergies including eczema, urticaria, and dermatitis cause itching, redness, and discomfort. homoeopathy treats the underlying immune response to provide lasting relief without steroid dependency.",
     symptoms: [
       "Itching and redness",
       "Rashes and hives",
@@ -119,7 +119,7 @@ export const treatments = [
     name: "Hair Fall",
     icon: "💇",
     overview:
-      "Hair fall can result from stress, hormonal imbalance, nutritional deficiency, or genetic factors. Homeopathy strengthens hair roots, improves scalp health, and promotes natural regrowth.",
+      "Hair fall can result from stress, hormonal imbalance, nutritional deficiency, or genetic factors. homoeopathy strengthens hair roots, improves scalp health, and promotes natural regrowth.",
     symptoms: [
       "Excessive hair shedding",
       "Thinning hair",
@@ -142,7 +142,7 @@ export const treatments = [
     name: "Arthritis",
     icon: "🦴",
     overview:
-      "Arthritis causes joint pain, stiffness, and inflammation, limiting mobility and quality of life. Homeopathy reduces inflammation, manages pain, and slows disease progression naturally.",
+      "Arthritis causes joint pain, stiffness, and inflammation, limiting mobility and quality of life. homoeopathy reduces inflammation, manages pain, and slows disease progression naturally.",
     symptoms: [
       "Joint pain and stiffness",
       "Swelling around joints",
@@ -165,7 +165,7 @@ export const treatments = [
     name: "Gastric Issues",
     icon: "🫁",
     overview:
-      "Gastric issues including acidity, bloating, IBS, and indigestion affect daily comfort and nutrition. Homeopathy restores digestive balance and strengthens gut health from within.",
+      "Gastric issues including acidity, bloating, IBS, and indigestion affect daily comfort and nutrition. homoeopathy restores digestive balance and strengthens gut health from within.",
     symptoms: [
       "Acidity and heartburn",
       "Bloating and gas",
@@ -188,7 +188,7 @@ export const treatments = [
     name: "Respiratory Problems",
     icon: "🌬️",
     overview:
-      "Respiratory problems including asthma, bronchitis, and sinusitis affect breathing and quality of life. Homeopathy strengthens respiratory immunity and reduces frequency of attacks.",
+      "Respiratory problems including asthma, bronchitis, and sinusitis affect breathing and quality of life. homoeopathy strengthens respiratory immunity and reduces frequency of attacks.",
     symptoms: [
       "Shortness of breath",
       "Chronic cough",
@@ -211,7 +211,7 @@ export const treatments = [
     name: "Stress & Anxiety",
     icon: "🧘",
     overview:
-      "Stress and anxiety disorders affect mental health, sleep, and daily functioning. Homeopathy offers gentle, non-addictive remedies that calm the mind and restore emotional balance.",
+      "Stress and anxiety disorders affect mental health, sleep, and daily functioning. homoeopathy offers gentle, non-addictive remedies that calm the mind and restore emotional balance.",
     symptoms: [
       "Persistent worry",
       "Sleep disturbances",
@@ -234,7 +234,7 @@ export const treatments = [
     name: "Child Immunity",
     icon: "👶",
     overview:
-      "Children are prone to frequent infections due to developing immune systems. Homeopathy safely boosts immunity, reduces recurrent infections, and supports healthy growth.",
+      "Children are prone to frequent infections due to developing immune systems. homoeopathy safely boosts immunity, reduces recurrent infections, and supports healthy growth.",
     symptoms: [
       "Frequent colds and coughs",
       "Recurrent ear infections",
@@ -257,7 +257,7 @@ export const treatments = [
     name: "Lifestyle Disorders",
     icon: "🏃",
     overview:
-      "Modern lifestyle disorders including obesity, hypertension, and chronic fatigue result from sedentary habits and stress. Homeopathy supports holistic recovery and sustainable health improvements.",
+      "Modern lifestyle disorders including obesity, hypertension, and chronic fatigue result from sedentary habits and stress. homoeopathy supports holistic recovery and sustainable health improvements.",
     symptoms: [
       "Chronic fatigue",
       "Weight management issues",

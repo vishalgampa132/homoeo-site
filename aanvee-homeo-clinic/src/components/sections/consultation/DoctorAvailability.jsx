@@ -22,14 +22,14 @@ const faqItems = [
       'Yes, online consultations are highly effective for most conditions. Our doctor conducts detailed case-taking virtually. However, for conditions requiring physical examination, we may recommend an in-clinic visit.',
   },
   {
-    question: 'How do I prepare for a homeopathic consultation?',
+    question: 'How do I prepare for a homoeopathic consultation?',
     answer:
       'Avoid eating or drinking anything strong-flavored (coffee, mint, garlic) 30 minutes before your appointment. Note down your symptoms, their triggers, and any patterns you have observed.',
   },
   {
     question: 'Can I book a consultation for my child?',
     answer:
-      'Absolutely! We specialize in pediatric homeopathy. For children under 12, a parent or guardian must be present during the consultation. Please bring the child\'s vaccination and medical records.',
+      'Absolutely! We specialize in pediatric homoeopathy. For children under 12, a parent or guardian must be present during the consultation. Please bring the child\'s vaccination and medical records.',
   },
   {
     question: 'What payment methods do you accept?',
@@ -37,7 +37,7 @@ const faqItems = [
       'We accept cash, UPI, credit/debit cards, and net banking. For online consultations, payment is collected before the session via our secure payment link.',
   },
   {
-    question: 'How soon can I expect results from homeopathic treatment?',
+    question: 'How soon can I expect results from homoeopathic treatment?',
     answer:
       'Acute conditions may show improvement within hours to days. Chronic conditions typically require 2-4 weeks for initial improvement, with full treatment courses lasting 3-6 months depending on the condition.',
   },
@@ -60,7 +60,7 @@ export default function DoctorAvailability() {
           Doctor Availability & Schedule
         </h2>
         <p className="text-dark/70 text-center max-w-2xl mx-auto mb-10">
-          Dr. Gande Manasa (B.H.M.S) is available for consultation throughout the week. Book your preferred slot below.
+          Dr. G Manasa B.H.M.S (JIMS) is available for consultation throughout the week. Book your preferred slot below.
         </p>
       </SectionReveal>
 

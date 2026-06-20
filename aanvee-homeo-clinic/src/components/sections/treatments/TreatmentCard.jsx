@@ -118,7 +118,7 @@ export default function TreatmentCard({ treatment, isExpanded, onToggle }) {
               {treatment.benefits && treatment.benefits.length > 0 && (
                 <div>
                   <h4 className="font-heading font-semibold text-sm text-dark mb-2">
-                    Benefits of Homeopathy
+                    Benefits of homoeopathy
                   </h4>
                   <ul className="list-disc list-inside space-y-1 text-sm text-dark/70">
                     {treatment.benefits.map((benefit, index) => (

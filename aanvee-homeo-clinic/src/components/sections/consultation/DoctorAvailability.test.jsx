@@ -22,7 +22,7 @@ describe('DoctorAvailability', () => {
     it('renders the section description', () => {
       renderComponent();
       expect(
-        screen.getByText(/our experienced homeopathic doctors are available throughout the week/i)
+        screen.getByText(/our experienced homoeopathic doctors are available throughout the week/i)
       ).toBeInTheDocument();
     });
 
@@ -110,10 +110,10 @@ describe('DoctorAvailability', () => {
       expect(screen.getByText('How long is a typical consultation?')).toBeInTheDocument();
       expect(screen.getByText('What should I bring to my appointment?')).toBeInTheDocument();
       expect(screen.getByText('Is online consultation as effective as in-person?')).toBeInTheDocument();
-      expect(screen.getByText('How do I prepare for a homeopathic consultation?')).toBeInTheDocument();
+      expect(screen.getByText('How do I prepare for a homoeopathic consultation?')).toBeInTheDocument();
       expect(screen.getByText('Can I book a consultation for my child?')).toBeInTheDocument();
       expect(screen.getByText('What payment methods do you accept?')).toBeInTheDocument();
-      expect(screen.getByText('How soon can I expect results from homeopathic treatment?')).toBeInTheDocument();
+      expect(screen.getByText('How soon can I expect results from homoeopathic treatment?')).toBeInTheDocument();
     });
 
     it('expands FAQ item on click to show answer', () => {

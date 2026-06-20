@@ -24,10 +24,10 @@ describe('ClinicStory', () => {
     ).toBeInTheDocument();
   });
 
-  it('renders content about personalized homeopathic care', () => {
+  it('renders content about personalized homoeopathic care', () => {
     render(<ClinicStory />);
     expect(
-      screen.getByText(/personalized homeopathic care/i)
+      screen.getByText(/personalized homoeopathic care/i)
     ).toBeInTheDocument();
   });
 

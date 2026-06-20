@@ -14,13 +14,13 @@ const reasons = [
     icon: '👩‍⚕️',
     title: 'Expert Consultation',
     description:
-      'Personalized treatment by Dr. Gande Manasa (B.H.M.S) for acute and chronic conditions.',
+      'Personalized treatment by Dr. G Manasa B.H.M.S (JIMS) for acute and chronic conditions.',
   },
   {
     icon: '👨‍👩‍👧‍👦',
     title: 'Complete Family Care',
     description:
-      'Safe, gentle & affordable homeopathy for all ages — from infants to elders.',
+      'Safe, gentle & affordable homoeopathy for all ages — from infants to elders.',
   },
 ];
 

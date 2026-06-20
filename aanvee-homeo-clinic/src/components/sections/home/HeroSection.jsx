@@ -147,7 +147,7 @@ export default function HeroSection() {
           variants={prefersReducedMotion ? undefined : headlineVariants}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          Your Complete Homeopathy Store & Clinic
+          Your Complete homoeopathy Store & Clinic
         </motion.h1>
 
         <motion.p
@@ -155,7 +155,7 @@ export default function HeroSection() {
           variants={prefersReducedMotion ? undefined : headlineVariants}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          Wide range of dilutions, mother tinctures, biochemic medicines & more. Expert homeopathic consultation by Dr. Gande Manasa (B.H.M.S) for personalized treatment of all conditions.
+          Wide range of dilutions, mother tinctures, biochemic medicines & more. Expert homoeopathic consultation by Dr. G Manasa B.H.M.S (JIMS) for personalized treatment of all conditions.
         </motion.p>
 
         <motion.div

@@ -66,7 +66,7 @@ describe('ConsultationBenefits', () => {
   it('renders benefit descriptions', () => {
     renderComponent();
     expect(
-      screen.getByText(/get expert homeopathic consultation from the comfort of your home/i)
+      screen.getByText(/get expert homoeopathic consultation from the comfort of your home/i)
     ).toBeInTheDocument();
     expect(
       screen.getByText(/thorough physical examination and detailed case-taking/i)

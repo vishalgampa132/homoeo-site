@@ -47,7 +47,7 @@ export default function FeaturedTreatments() {
               Featured Treatments
             </h2>
             <p className="text-lg md:text-xl text-dark/70 leading-relaxed">
-              Explore our specialized homeopathic treatments for common health
+              Explore our specialized homoeopathic treatments for common health
               conditions, designed to heal naturally and holistically.
             </p>
           </div>

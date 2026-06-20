@@ -16,10 +16,10 @@ describe('HeroSection', () => {
     ).toBeInTheDocument();
   });
 
-  it('renders the subheadline mentioning trusted homeopathy consultation and medicines', () => {
+  it('renders the subheadline mentioning trusted homoeopathy consultation and medicines', () => {
     renderWithRouter(<HeroSection />);
     expect(
-      screen.getByText(/trusted homeopathy consultation/i)
+      screen.getByText(/trusted homoeopathy consultation/i)
     ).toBeInTheDocument();
     expect(
       screen.getByText(/medicines/i)

@@ -35,7 +35,7 @@ export default function Footer() {
               </h2>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              {clinicInfo.tagline}. Trusted homeopathy consultation and authentic medicines for
+              {clinicInfo.tagline}. Trusted homoeopathy consultation and authentic medicines for
               natural healing and holistic wellness.
             </p>
             {/* Social Media Icons */}

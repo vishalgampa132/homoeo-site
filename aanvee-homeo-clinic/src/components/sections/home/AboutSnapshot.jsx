@@ -33,9 +33,9 @@ export default function AboutSnapshot() {
             </h2>
             <p className="text-lg md:text-xl text-dark/70 leading-relaxed">
               Aanvee Homoeo Store is your one-stop destination for authentic
-              homeopathic medicines. We stock a wide range of dilutions, mother
+              homoeopathic medicines. We stock a wide range of dilutions, mother
               tinctures, biochemic medicines, patent products, and more from
-              trusted brands. Consultation available with our qualified homeopathic doctor.
+              trusted brands. Consultation available with our qualified homoeopathic doctor.
             </p>
           </div>
         </SectionReveal>
