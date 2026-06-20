@@ -27,8 +27,8 @@ export const designTokens = {
 export const clinicInfo = {
   name: "Aanvee Homoeo Store",
   tagline: "Your Complete Homeopathy Store – Dilutions, Mother Tinctures & More",
-  phone: "+91 98765 43210",
-  whatsapp: "+919876543210",
+  phone: "+91 98499 41115",
+  whatsapp: "+919849941115",
   email: "contact@aanveehomoeo.com",
   address: {
     line1: "Ground Floor, Plot No. 234, Block A",

@@ -82,7 +82,7 @@ describe('validateField', () => {
 
     it('returns null for valid 10-digit phone', () => {
       const rules = { required: true, pattern: patterns.phone };
-      expect(validateField('mobile', '9876543210', rules)).toBeNull();
+      expect(validateField('mobile', '9849941115', rules)).toBeNull();
     });
 
     it('returns error for phone with non-digit characters', () => {
@@ -263,7 +263,7 @@ describe('validateForm', () => {
     tomorrow.setDate(tomorrow.getDate() + 1);
     const formData = {
       fullName: 'John Doe',
-      mobile: '9876543210',
+      mobile: '9849941115',
       email: 'john@example.com',
       age: '30',
       gender: 'Male',
@@ -337,7 +337,7 @@ describe('patterns', () => {
 
   describe('phone pattern', () => {
     it('accepts 10-digit number', () => {
-      expect(patterns.phone.regex.test('9876543210')).toBe(true);
+      expect(patterns.phone.regex.test('9849941115')).toBe(true);
     });
 
     it('rejects less than 10 digits', () => {
@@ -345,7 +345,7 @@ describe('patterns', () => {
     });
 
     it('rejects more than 10 digits', () => {
-      expect(patterns.phone.regex.test('98765432101')).toBe(false);
+      expect(patterns.phone.regex.test('98499411151')).toBe(false);
     });
 
     it('rejects non-digit characters', () => {

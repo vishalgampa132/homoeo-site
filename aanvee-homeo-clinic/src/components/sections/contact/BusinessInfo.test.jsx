@@ -35,12 +35,12 @@ describe('BusinessInfo', () => {
       render(<BusinessInfo />);
       const phoneLink = screen.getByRole('link', { name: /call us at/i });
       expect(phoneLink).toBeInTheDocument();
-      expect(phoneLink).toHaveAttribute('href', 'tel:+919876543210');
+      expect(phoneLink).toHaveAttribute('href', 'tel:+919849941115');
     });
 
-    it('displays the phone number text', () => {
+    it('displays the phone number text', () => {ß
       render(<BusinessInfo />);
-      expect(screen.getByText('+91 98765 43210')).toBeInTheDocument();
+      expect(screen.getByText('+91 98499 41115')).toBeInTheDocument();
     });
   });
 
@@ -49,7 +49,7 @@ describe('BusinessInfo', () => {
       render(<BusinessInfo />);
       const whatsappLink = screen.getByRole('link', { name: /chat with us on whatsapp/i });
       expect(whatsappLink).toBeInTheDocument();
-      expect(whatsappLink).toHaveAttribute('href', 'https://wa.me/+919876543210');
+      expect(whatsappLink).toHaveAttribute('href', 'https://wa.me/+919849941115');
     });
 
     it('WhatsApp link opens in new tab', () => {

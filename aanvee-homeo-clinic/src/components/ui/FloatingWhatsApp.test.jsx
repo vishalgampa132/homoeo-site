@@ -21,7 +21,7 @@ describe('FloatingWhatsApp', () => {
     render(<FloatingWhatsApp />);
     const link = screen.getByLabelText('Chat on WhatsApp');
     expect(link).toBeInTheDocument();
-    expect(link).toHaveAttribute('href', 'https://wa.me/919876543210');
+    expect(link).toHaveAttribute('href', 'https://wa.me/919849941115');
   });
 
   it('opens in a new tab', () => {

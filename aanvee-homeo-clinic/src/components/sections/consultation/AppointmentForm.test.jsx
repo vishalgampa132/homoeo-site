@@ -148,7 +148,7 @@ describe('AppointmentForm', () => {
       const dateStr = tomorrow.toISOString().split('T')[0];
 
       fireEvent.change(screen.getByLabelText(/full name/i), { target: { value: 'John Doe' } });
-      fireEvent.change(screen.getByLabelText(/mobile number/i), { target: { value: '9876543210' } });
+      fireEvent.change(screen.getByLabelText(/mobile number/i), { target: { value: '9849941115' } });
       fireEvent.change(screen.getByLabelText(/email/i), { target: { value: 'john@example.com' } });
       fireEvent.change(screen.getByLabelText(/^age/i), { target: { value: '30' } });
       fireEvent.change(screen.getByLabelText(/gender/i), { target: { value: 'Male' } });
@@ -173,7 +173,7 @@ describe('AppointmentForm', () => {
       const dateStr = tomorrow.toISOString().split('T')[0];
 
       fireEvent.change(screen.getByLabelText(/full name/i), { target: { value: 'John Doe' } });
-      fireEvent.change(screen.getByLabelText(/mobile number/i), { target: { value: '9876543210' } });
+      fireEvent.change(screen.getByLabelText(/mobile number/i), { target: { value: '9849941115' } });
       fireEvent.change(screen.getByLabelText(/email/i), { target: { value: 'john@example.com' } });
       fireEvent.change(screen.getByLabelText(/^age/i), { target: { value: '30' } });
       fireEvent.change(screen.getByLabelText(/gender/i), { target: { value: 'Male' } });

@@ -24,7 +24,7 @@ describe('Feature: aanvee-homoeo-website, Property 1: Form validation rejects em
 
   const validFieldValues = {
     fullName: 'John Doe',
-    mobile: '9876543210',
+    mobile: '9849941115',
     email: 'user@example.com',
     age: '30',
     gender: 'Male',
