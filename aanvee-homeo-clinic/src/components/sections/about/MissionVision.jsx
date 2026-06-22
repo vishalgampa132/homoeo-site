@@ -16,7 +16,7 @@ export default function MissionVision() {
         <SectionReveal direction="up">
           <h2
             id="mission-vision-heading"
-            className="text-3xl md:text-4xl font-heading font-bold text-dark mb-6 text-center"
+            className="text-3xl md:text-4xl font-heading font-bold text-dark tracking-tight mb-5 text-center"
           >
             Mission &amp; Vision
           </h2>
@@ -28,11 +28,11 @@ export default function MissionVision() {
             <GlassCard className="p-8 h-full" hover={false}>
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-3xl" aria-hidden="true">🎯</span>
-                <h3 className="text-xl md:text-2xl font-heading font-semibold text-dark">
+                <h3 className="text-xl md:text-2xl font-heading font-semibold text-dark tracking-tight">
                   Our Mission
                 </h3>
               </div>
-              <p className="text-dark/75 leading-relaxed">
+              <p className="text-dark/60 text-sm md:text-base leading-relaxed">
                 To be your trusted one-stop destination for authentic homoeopathic medicines —
                 offering a wide range of dilutions, mother tinctures, biochemic medicines, and
                 patent products along with personalized consultation. We make quality homoeopathy
@@ -45,11 +45,11 @@ export default function MissionVision() {
             <GlassCard className="p-8 h-full" hover={false}>
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-3xl" aria-hidden="true">🌟</span>
-                <h3 className="text-xl md:text-2xl font-heading font-semibold text-dark">
+                <h3 className="text-xl md:text-2xl font-heading font-semibold text-dark tracking-tight">
                   Our Vision
                 </h3>
               </div>
-              <p className="text-dark/75 leading-relaxed">
+              <p className="text-dark/60 text-sm md:text-base leading-relaxed">
                 To become the most trusted homoeopathy store, recognized for authentic products,
                 comprehensive inventory, and expert guidance. We envision a future where every
                 family has easy access to genuine homoeopathic medicines for safe, sustainable,

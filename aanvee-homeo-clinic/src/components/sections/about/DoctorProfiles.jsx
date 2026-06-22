@@ -12,11 +12,11 @@ export default function DoctorProfiles() {
         <SectionReveal direction="up">
           <h2
             id="doctor-profiles-heading"
-            className="text-3xl md:text-4xl font-heading font-bold text-dark mb-6 text-center"
+            className="section-heading mb-4 text-center"
           >
             Our Consultant
           </h2>
-          <p className="text-center text-dark/70 max-w-2xl mx-auto mb-12">
+          <p className="section-subtitle text-center mx-auto mb-12">
             Get personalized homoeopathic consultation from our qualified practitioner.
           </p>
         </SectionReveal>
@@ -32,13 +32,13 @@ export default function DoctorProfiles() {
                 <span className="text-white text-3xl font-bold">GM</span>
               </div>
 
-              <h3 className="text-xl md:text-2xl font-heading font-semibold text-dark">
+              <h3 className="text-xl md:text-2xl font-heading font-semibold text-dark tracking-tight">
                 Dr. G Manasa
               </h3>
-              <p className="text-base text-primary font-medium mt-2">
+              <p className="text-sm text-primary font-semibold mt-2 uppercase tracking-wide">
                 B.H.M.S (JIMS)
               </p>
-              <p className="mt-4 text-dark/70 leading-relaxed">
+              <p className="mt-4 text-dark/60 text-sm md:text-base leading-relaxed">
                 Providing personalized homoeopathic consultation and treatment for a wide range of acute and chronic conditions.
               </p>
             </GlassCard>

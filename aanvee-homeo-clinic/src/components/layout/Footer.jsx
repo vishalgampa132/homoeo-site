@@ -22,7 +22,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-dark text-white" role="contentinfo" aria-label="Site footer">
+    <footer className="bg-dark text-white/90" role="contentinfo" aria-label="Site footer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         {/* Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
@@ -34,7 +34,7 @@ export default function Footer() {
                 {clinicInfo.name}
               </h2>
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">
+            <p className="text-sm text-gray-300 leading-relaxed mb-4">
               {clinicInfo.tagline}. Trusted homoeopathy consultation and authentic medicines for
               natural healing and holistic wellness.
             </p>
@@ -78,7 +78,7 @@ export default function Footer() {
 
           {/* Column 2: Quick Links */}
           <div>
-            <h3 className="font-heading font-semibold text-lg mb-4 text-white">
+            <h3 className="font-heading font-semibold text-base mb-4 text-white tracking-tight">
               Quick Links
             </h3>
             <nav aria-label="Footer navigation">
@@ -87,7 +87,7 @@ export default function Footer() {
                   <li key={link.path}>
                     <Link
                       to={link.path}
-                      className="text-gray-300 text-sm hover:text-primary transition-colors duration-200"
+                      className="text-gray-300 text-sm hover:text-primary transition-colors duration-200 leading-relaxed"
                     >
                       {link.label}
                     </Link>
@@ -99,10 +99,10 @@ export default function Footer() {
 
           {/* Column 3: Contact Info */}
           <div>
-            <h3 className="font-heading font-semibold text-lg mb-4 text-white">
+            <h3 className="font-heading font-semibold text-base mb-4 text-white tracking-tight">
               Contact Us
             </h3>
-            <address className="not-italic space-y-3 text-sm text-gray-300">
+            <address className="not-italic space-y-3 text-sm text-white/70">
               <p className="flex items-start gap-2">
                 <svg className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -153,7 +153,7 @@ export default function Footer() {
 
           {/* Column 4: Working Hours */}
           <div>
-            <h3 className="font-heading font-semibold text-lg mb-4 text-white">
+            <h3 className="font-heading font-semibold text-base mb-4 text-white tracking-tight">
               Working Hours
             </h3>
             <div className="space-y-3 text-sm text-gray-300">
@@ -174,7 +174,7 @@ export default function Footer() {
             <div className="mt-6">
               <Link
                 to="/consultation"
-                className="inline-block bg-primary hover:bg-primaryDark text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors duration-200"
+                className="inline-block bg-primary hover:bg-primaryDark text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors duration-200"
               >
                 Book Appointment
               </Link>

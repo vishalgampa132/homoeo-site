@@ -60,11 +60,11 @@ export default function Testimonials() {
           <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
             <h2
               id="testimonials-heading"
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-dark mb-4"
+              className="font-heading text-3xl md:text-4xl font-bold text-dark tracking-tight mb-4"
             >
               What Our Patients Say
             </h2>
-            <p className="text-lg md:text-xl text-dark/70 leading-relaxed">
+            <p className="text-base md:text-lg text-dark/60 leading-relaxed">
               Real stories from patients who found lasting relief through homoeopathy at Aanvee Homoeo.
             </p>
           </div>
@@ -87,15 +87,15 @@ export default function Testimonials() {
               >
                 <StarRating rating={testimonial.rating} />
                 <blockquote className="mt-4 flex-1">
-                  <p className="text-dark/80 text-sm md:text-base leading-relaxed italic">
+                  <p className="text-dark/70 text-sm md:text-base leading-relaxed italic">
                     &ldquo;{testimonial.review}&rdquo;
                   </p>
                 </blockquote>
                 <div className="mt-6 pt-4 border-t border-dark/10">
-                  <p className="font-heading font-semibold text-dark">
+                  <p className="font-heading font-semibold text-dark text-sm">
                     {testimonial.name}
                   </p>
-                  <p className="text-sm text-primary font-medium">
+                  <p className="text-xs text-primary font-medium mt-0.5">
                     {testimonial.condition}
                   </p>
                 </div>

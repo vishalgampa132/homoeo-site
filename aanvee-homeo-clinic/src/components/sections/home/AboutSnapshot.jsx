@@ -27,11 +27,11 @@ export default function AboutSnapshot() {
           <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
             <h2
               id="about-snapshot-heading"
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-dark mb-6"
+              className="section-heading mb-4"
             >
               About Our Store
             </h2>
-            <p className="text-lg md:text-xl text-dark/70 leading-relaxed">
+            <p className="section-subtitle mx-auto">
               Aanvee Homoeo Store is your one-stop destination for authentic
               homoeopathic medicines. We stock a wide range of dilutions, mother
               tinctures, biochemic medicines, patent products, and more from
@@ -55,10 +55,10 @@ export default function AboutSnapshot() {
                 <span className="block text-3xl mb-2" aria-hidden="true">
                   {indicator.icon}
                 </span>
-                <span className="block text-2xl sm:text-3xl font-bold text-primary font-heading">
+                <span className="block text-2xl sm:text-3xl font-bold text-primary font-heading tracking-tight">
                   {indicator.value}
                 </span>
-                <span className="block text-sm sm:text-base text-dark/60 mt-1">
+                <span className="block text-sm text-dark/60 mt-1 font-medium">
                   {indicator.label}
                 </span>
               </div>

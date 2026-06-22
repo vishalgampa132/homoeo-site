@@ -124,7 +124,7 @@ export default function AppointmentForm() {
   return (
     <div className="relative">
       <GlassCard hover={false} className="p-6 md:p-8">
-        <h2 className="text-2xl md:text-3xl font-heading font-bold text-dark mb-6">
+        <h2 className="text-2xl md:text-3xl font-heading font-bold text-dark tracking-tight mb-6">
           Book Your Consultation
         </h2>
 
@@ -308,7 +308,7 @@ function FormField({ label, name, type, placeholder, value, error, onChange, onB
 
   return (
     <div className="flex flex-col">
-      <label htmlFor={name} className="text-sm font-medium text-dark mb-1">
+      <label htmlFor={name} className="text-sm font-medium text-dark/80 mb-1.5">
         {label}
         {required && <span className="text-red-500 ml-1" aria-hidden="true">*</span>}
       </label>
@@ -324,7 +324,7 @@ function FormField({ label, name, type, placeholder, value, error, onChange, onB
         aria-describedby={hasError ? errorId : undefined}
         aria-required={required}
         className={`w-full px-4 py-3 min-h-[44px] rounded-lg border bg-white/80 backdrop-blur-sm
-          text-dark placeholder-gray-400 transition-colors duration-200
+          text-dark text-sm placeholder-dark/40 transition-colors duration-200
           focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary
           ${hasError ? 'border-red-400 focus:ring-red-300' : 'border-gray-200'}`}
         {...props}
@@ -347,7 +347,7 @@ function SelectField({ label, name, value, error, onChange, onBlur, required, op
 
   return (
     <div className="flex flex-col">
-      <label htmlFor={name} className="text-sm font-medium text-dark mb-1">
+      <label htmlFor={name} className="text-sm font-medium text-dark/80 mb-1.5">
         {label}
         {required && <span className="text-red-500 ml-1" aria-hidden="true">*</span>}
       </label>
@@ -361,10 +361,10 @@ function SelectField({ label, name, value, error, onChange, onBlur, required, op
         aria-describedby={hasError ? errorId : undefined}
         aria-required={required}
         className={`w-full px-4 py-3 min-h-[44px] rounded-lg border bg-white/80 backdrop-blur-sm
-          text-dark transition-colors duration-200
+          text-dark text-sm transition-colors duration-200
           focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary
           ${hasError ? 'border-red-400 focus:ring-red-300' : 'border-gray-200'}
-          ${!value ? 'text-gray-400' : ''}`}
+          ${!value ? 'text-dark/40' : ''}`}
       >
         {options.map((opt) => (
           <option key={opt.value} value={opt.value}>
@@ -390,7 +390,7 @@ function TextAreaField({ label, name, placeholder, value, error, onChange, onBlu
 
   return (
     <div className="flex flex-col">
-      <label htmlFor={name} className="text-sm font-medium text-dark mb-1">
+      <label htmlFor={name} className="text-sm font-medium text-dark/80 mb-1.5">
         {label}
         {required && <span className="text-red-500 ml-1" aria-hidden="true">*</span>}
       </label>
@@ -406,7 +406,7 @@ function TextAreaField({ label, name, placeholder, value, error, onChange, onBlu
         aria-describedby={hasError ? errorId : undefined}
         aria-required={required}
         className={`w-full px-4 py-3 min-h-[44px] rounded-lg border bg-white/80 backdrop-blur-sm
-          text-dark placeholder-gray-400 transition-colors duration-200 resize-y
+          text-dark text-sm placeholder-dark/40 transition-colors duration-200 resize-y
           focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary
           ${hasError ? 'border-red-400 focus:ring-red-300' : 'border-gray-200'}`}
       />

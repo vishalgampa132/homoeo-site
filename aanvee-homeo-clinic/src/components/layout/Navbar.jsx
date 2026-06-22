@@ -36,7 +36,7 @@ export default function Navbar({ onMobileMenuToggle }) {
         {/* Logo */}
         <NavLink
           to="/"
-          className="flex items-center gap-2 font-heading font-bold text-lg md:text-xl"
+          className="flex items-center gap-2 font-heading font-bold text-lg md:text-xl tracking-tight"
           aria-label="Aanvee Homoeo - Home"
         >
           <img src="/logo.png" alt="" className="w-8 h-8 md:w-10 md:h-10 object-contain" />
@@ -57,12 +57,12 @@ export default function Navbar({ onMobileMenuToggle }) {
                 to={link.path}
                 end={link.exact}
                 className={({ isActive }) =>
-                  `text-sm lg:text-base font-medium transition-colors duration-200 ${
+                  `text-sm font-medium tracking-wide transition-colors duration-200 ${
                     isActive
                       ? 'text-primary border-b-2 border-primary pb-1'
                       : isScrolled
-                        ? 'text-dark hover:text-primary'
-                        : 'text-dark hover:text-primary'
+                        ? 'text-dark/80 hover:text-primary'
+                        : 'text-dark/80 hover:text-primary'
                   }`
                 }
               >
@@ -74,7 +74,7 @@ export default function Navbar({ onMobileMenuToggle }) {
 
         {/* Desktop CTA Button */}
         <div className="hidden md:block">
-          <CTAButton to="/consultation" className="text-sm lg:text-base">
+          <CTAButton to="/consultation" className="text-sm font-semibold">
             Book Consultation
           </CTAButton>
         </div>

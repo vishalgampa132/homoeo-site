@@ -5,9 +5,8 @@ import FAQAccordion from '../../ui/FAQAccordion';
 import { clinicInfo } from '../../../utils/constants';
 
 const schedule = [
-  { day: 'Monday - Friday', hours: '9:00 AM - 8:00 PM', available: true },
-  { day: 'Saturday', hours: '9:00 AM - 6:00 PM', available: true },
-  { day: 'Sunday', hours: '10:00 AM - 2:00 PM', available: true },
+  { day: 'Monday - Saturday', hours: '10:00 AM - 9:00 PM', available: true },
+  { day: 'Sunday', hours: '10:00 AM - 12:30 PM', available: true },
 ];
 
 const faqItems = [
@@ -55,11 +54,11 @@ export default function DoctorAvailability() {
       <SectionReveal direction="up">
         <h2
           id="doctor-availability-heading"
-          className="text-2xl md:text-3xl font-heading font-bold text-dark text-center mb-4"
+          className="text-3xl md:text-4xl font-heading font-bold text-dark text-center tracking-tight mb-4"
         >
           Doctor Availability & Schedule
         </h2>
-        <p className="text-dark/70 text-center max-w-2xl mx-auto mb-10">
+        <p className="text-dark/60 text-base md:text-lg text-center max-w-2xl mx-auto mb-10 leading-relaxed">
           Dr. G Manasa B.H.M.S (JIMS) is available for consultation throughout the week. Book your preferred slot below.
         </p>
       </SectionReveal>
@@ -68,7 +67,7 @@ export default function DoctorAvailability() {
         {/* Weekly Schedule */}
         <SectionReveal direction="up" delay={0.1}>
           <GlassCard className="p-6" hover={false}>
-            <h3 className="text-lg font-heading font-semibold text-dark mb-4">
+            <h3 className="text-lg font-heading font-semibold text-dark tracking-tight mb-4">
               Weekly Schedule
             </h3>
             <div className="space-y-3" role="list" aria-label="Doctor weekly schedule">
@@ -78,9 +77,9 @@ export default function DoctorAvailability() {
                   className="flex items-center justify-between py-2 border-b border-white/10 last:border-0"
                   role="listitem"
                 >
-                  <span className="font-medium text-dark">{slot.day}</span>
+                  <span className="font-medium text-dark text-sm">{slot.day}</span>
                   <div className="flex items-center gap-2">
-                    <span className="text-sm text-dark/70">{slot.hours}</span>
+                    <span className="text-sm text-dark/60">{slot.hours}</span>
                     <span
                       className={`w-2 h-2 rounded-full ${slot.available ? 'bg-primary' : 'bg-red-400'}`}
                       aria-label={slot.available ? 'Available' : 'Unavailable'}
@@ -101,7 +100,7 @@ export default function DoctorAvailability() {
         <div className="max-w-3xl mx-auto">
           <h3
             id="consultation-faq-heading"
-            className="text-xl md:text-2xl font-heading font-semibold text-dark text-center mb-6"
+            className="text-xl md:text-2xl font-heading font-semibold text-dark text-center tracking-tight mb-6"
           >
             Frequently Asked Questions
           </h3>

@@ -59,11 +59,11 @@ export default function WhyChooseUs() {
           <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
             <h2
               id="why-choose-us-heading"
-              className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-dark mb-4"
+              className="section-heading mb-4"
             >
               Why Choose Us
             </h2>
-            <p className="text-lg md:text-xl text-dark/70 leading-relaxed">
+            <p className="section-subtitle mx-auto">
               Discover what makes Aanvee Homoeo your trusted partner in natural
               healing and wellness.
             </p>
@@ -91,10 +91,10 @@ export default function WhyChooseUs() {
                 >
                   {reason.icon}
                 </span>
-                <h3 className="font-heading text-lg md:text-xl font-semibold text-dark mb-3">
+                <h3 className="card-title mb-2">
                   {reason.title}
                 </h3>
-                <p className="text-dark/70 text-sm md:text-base leading-relaxed">
+                <p className="card-body">
                   {reason.description}
                 </p>
               </GlassCard>

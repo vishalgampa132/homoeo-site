@@ -77,12 +77,12 @@ describe('BusinessInfo', () => {
   describe('Working Hours', () => {
     it('displays weekday hours', () => {
       render(<BusinessInfo />);
-      expect(screen.getByText(/mon - sat: 9:00 am - 8:00 pm/i)).toBeInTheDocument();
+      expect(screen.getByText(/mon - sat: 10:00 am - 9:00 pm/i)).toBeInTheDocument();
     });
 
     it('displays sunday hours', () => {
       render(<BusinessInfo />);
-      expect(screen.getByText(/sun: 10:00 am - 2:00 pm/i)).toBeInTheDocument();
+      expect(screen.getByText(/sun: 10:00 am - 12:30 pm/i)).toBeInTheDocument();
     });
   });
 

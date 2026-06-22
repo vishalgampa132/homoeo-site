@@ -38,8 +38,8 @@ export const clinicInfo = {
     pincode: "500027"
   },
   workingHours: {
-    weekdays: "Mon - Sat: 9:00 AM - 8:00 PM",
-    sunday: "Sun: 10:00 AM - 2:00 PM"
+    weekdays: "Mon - Sat: 10:00 AM - 9:00 PM",
+    sunday: "Sun: 10:00 AM - 12:30 PM"
   },
   socialMedia: {
     facebook: "https://facebook.com/aanveehomoeo",

@@ -7,7 +7,7 @@ import { clinicInfo } from '../../../utils/constants';
  * WhatsApp link, email, working hours, and social media links.
  */
 export default function BusinessInfo() {
-  const { address, phone, whatsapp, email, workingHours, socialMedia } = clinicInfo;
+  const { address, phone, whatsapp, email, workingHours } = clinicInfo;
 
   return (
     <GlassCard hover={false} className="p-6 md:p-8">
@@ -82,33 +82,6 @@ export default function BusinessInfo() {
             {workingHours.sunday}
           </p>
         </InfoItem>
-
-        {/* Social Media */}
-        <div className="pt-4 border-t border-white/20">
-          <h3 className="text-sm font-semibold text-dark mb-3">Follow Us</h3>
-          <div className="flex gap-3" role="list" aria-label="Social media links">
-            {socialMedia.facebook && (
-              <SocialLink href={socialMedia.facebook} label="Facebook">
-                <FacebookIcon />
-              </SocialLink>
-            )}
-            {socialMedia.instagram && (
-              <SocialLink href={socialMedia.instagram} label="Instagram">
-                <InstagramIcon />
-              </SocialLink>
-            )}
-            {socialMedia.twitter && (
-              <SocialLink href={socialMedia.twitter} label="Twitter">
-                <TwitterIcon />
-              </SocialLink>
-            )}
-            {socialMedia.youtube && (
-              <SocialLink href={socialMedia.youtube} label="YouTube">
-                <YouTubeIcon />
-              </SocialLink>
-            )}
-          </div>
-        </div>
       </div>
     </GlassCard>
   );

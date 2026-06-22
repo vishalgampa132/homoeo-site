@@ -11,7 +11,7 @@ export default function ClinicStory() {
         <SectionReveal direction="up">
           <h2
             id="clinic-story-heading"
-            className="text-3xl md:text-4xl font-heading font-bold text-dark mb-6 text-center"
+            className="section-heading mb-5 text-center"
           >
             Our Story
           </h2>
@@ -19,7 +19,7 @@ export default function ClinicStory() {
         </SectionReveal>
 
         <SectionReveal direction="up" delay={0.1}>
-          <div className="prose prose-lg max-w-none text-dark/80 leading-relaxed space-y-6">
+          <div className="prose prose-lg max-w-none text-dark/60 leading-relaxed space-y-6">
             <p>
               Aanvee Homoeo Store was founded with a simple yet powerful vision — to make
               authentic homoeopathic medicines accessible to every family. We are your complete
