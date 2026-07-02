@@ -54,3 +54,4 @@ export const clinicInfo = {
     qualification: "B.H.M.S",
   }
 };
+
